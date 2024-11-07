@@ -125,7 +125,12 @@ img {
   padding-top: 0;
 }
 .container--contact {
-  padding-block: 4rem;
+  width: 100%;
+  padding-block: 4rem 0;
+  row-gap: 0;
+}
+.container--footer {
+  row-gap: 2rem;
 }
 .section__title-1,
 .section__title-2 {
@@ -710,7 +715,7 @@ img {
   padding: 5rem 1.5rem 2.5rem;
   margin-top: -2.5rem;
   transition: background-color 0.4s;
-  width: 90%;
+  width: 100%;
 }
 .contact__title {
   color: var(--white-color);
@@ -799,10 +804,10 @@ img {
 .contact__social {
   display: grid;
   row-gap: 1rem;
-  background-color: hsl(0, 0%, 10%);
+  background-color: hsl(0, 0%, 20%);
   padding-block: 1rem 2rem;
   text-align: center;
-  width: 90%;
+  width: 100%;
 }
 .contact__social-arrow {
   width: 32px;
@@ -851,6 +856,7 @@ img {
 
 /*=============== FOOTER ===============*/
 .footer {
+  padding-block: 2rem 1rem;
   background-color: var(--black-color);
 }
 .footer__links {
