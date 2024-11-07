@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.jpg"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Responsive portfolio website Diego</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <div class="container">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo--circle">D</span>
+          <span class="nav__logo--name">Diego Santa Ana.</span>
+        </a>
+        <nav class="nav">
+          <div class="nav__menu" id="nav-menu">
+            <span class="nav__title">Menu</span>
+            <h3 class="nav__name">Diego</h3>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link">Principal</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">Acerca de mi</a>
+              </li>
+              <li class="nav__item">
+                <a href="#services" class="nav__link">Servicios</a>
+              </li>
+              <li class="nav__item">
+                <a href="#projects" class="nav__link">Proyectos</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link">Contacto</a>
+              </li>
+            </ul>
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+              <i class="ri-close-line"></i>
+            </div>
+          </div>
+          <div class="nav__buttons">
+            <div class="nav__show" id="nav-show">
+              <i class="ri-menu-4-line"></i>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="container container--home">
+          <h1 class="home__name">Diego Santa Ana</h1>
+          <div class="home__perfil">
+            <div class="home__image">
+              <img
+                src="./assets/img/home-perfil.jpg"
+                alt="perfil image"
+                class="home__img"
+              />
+              <div class="home__shadow"></div>
+              <img
+                src="./assets/img/curved-arrow.svg"
+                alt="decoration image"
+                class="home__arrow"
+              />
+              <img
+                src="./assets/img/random-lines.svg"
+                alt="decoration image"
+                class="home__line"
+              />
+              <div class="geometric-box"></div>
+            </div>
+            <div class="social__icons">
+              <a
+                href="https://www.instagram.com/diegosantaana_/"
+                target="_blank"
+                class="social__link"
+                ><i class="ri-instagram-line"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/diego-santaana-1941amj/"
+                target="_blank"
+                class="social__link"
+                ><i class="ri-linkedin-box-line"></i
+              ></a>
+              <a
+                href="https://github.com/diegosantaana/"
+                target="_blank"
+                class="social__link"
+                ><i class="ri-github-line"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home__info">
+            <p class="home__description">
+              <b>Desarrolador frontend</b>, con conocimientos en desarrollo y
+              diseño web, ofresco los mejores proyectos adecuados a las
+              necesidades y al estilo que proponga cada cliente.
+            </p>
+            <a href="#about" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+              <span class="home__scroll-text"> Scroll Down </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about" id="about">
+        <div class="container container--about">
+          <h2 class="section__title-1"><span>Acerca de mi.</span></h2>
+          <div class="about__perfil">
+            <div class="about__image">
+              <img
+                src="./assets/img/about-perfil.jpg"
+                alt="about image"
+                class="about__img"
+              />
+              <div class="about__shadow"></div>
+              <div class="geometric-box"></div>
+              <img
+                src="./assets/img/random-lines.svg"
+                alt="decoration image"
+                class="about__line"
+              />
+              <div class="about__box"></div>
+            </div>
+          </div>
+          <div class="about__info">
+            <p class="about__description">
+              Soy un desarrollador web en formación con experiencia en la
+              creación de sitios web dinamicos y estéticos. Mis habilidades
+              abarcan HTML, CSS y JavaScript, con un enfoque en desarrollar
+              interfaces intuitivas y responsivas. Estoy siempre en busca de
+              nuevos desafios que me permitan seguir aprendiendo y
+              perfeccionando mis conocimientos en el desarrollo web.
+            </p>
+            <ul class="about__list">
+              <li class="about__item">
+                <b>Con experiencia en:</b> HTML, CSS, JavaScript, Git & GitHub.
+              </li>
+            </ul>
+            <div class="about__buttons">
+              <a href="#contact" class="button"
+                ><i class="ri-send-plane-line"></i>Contactame</a
+              >
+              <a
+                href="https://www.linkedin.com/in/diego-santaana-1941amj/"
+                target="_blank"
+                class="button__ghost"
+                ><i class="ri-linkedin-box-line"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services" id="services">
+        <h2 class="section__title-2"><span>Servicios.</span></h2>
+        <div class="container container--services">
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-layout-4-line"></i>
+              </div>
+              <h2 class="services__title">Diseño web</h2>
+              <p class="services__description">
+                Bellos y elegantes diseños con interfaces intuitivas, eficientes
+                y agradables para el usuario.
+              </p>
+            </div>
+          </article>
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-code-box-line"></i>
+              </div>
+              <h2 class="services__title">Desarrollo</h2>
+              <p class="services__description">
+                Desarrollo web personalizado adaptado a sus especificaciones,
+                diseñado para ofrecer una experiencia de usuario impecable.
+              </p>
+            </div>
+          </article>
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-smartphone-line"></i>
+              </div>
+              <h2 class="services__title">Aplicaciones móviles</h2>
+              <p class="services__description">
+                Diseñar y transformar proyectos web en aplicaciones móviles para
+                ofrecer una experiencia de usuario fluida.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects" id="projects">
+        <h2 class="section__title-1"><span>Proyectos.</span></h2>
+        <div class="container container--projects">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./assets/img/project-1.jpg"
+                alt="project image"
+                class="projects__img"
+              />
+              <a
+                href="https://diegosantaana.github.io/Proyecto-1/"
+                target="_blank"
+                class="projects__button button"
+                ><i class="ri-arrow-right-up-line"></i
+              ></a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Sitio web de entrenamiento</h3>
+              <h2 class="projects__title"></h2>
+              <p class="projects__description">
+                Proyecto diseñado especificamente para pantallas de computadora
+                y no está optimizado para dispositivos móviles.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/diegosantaana/Proyecto-1"
+                target="_blank"
+                class="projects__link"
+                ><i class="ri-github-line"></i>View</a
+              >
+              <!-- <a
+                href="https://diegosantaana.github.io/Proyecto-2/"
+                target="_blank"
+                class="projects__link"
+                ><i class="ri-dribbble-line"></i>View</a
+              > -->
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./assets/img/project-2.jpg"
+                alt="project image"
+                class="projects__img"
+              />
+              <a
+                href="https://diegosantaana.github.io/Proyecto-2/"
+                target="_blank"
+                class="projects__button button"
+                ><i class="ri-arrow-right-up-line"></i
+              ></a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Sitio web</h3>
+              <h2 class="projects__title">Marketing digital</h2>
+              <p class="projects__description">
+                Proyecto adaptado exclusivamente para pantallas de computadora,
+                por lo que la experiencia de usuario puede verse afectada si se
+                visualiza en pantallas pequeñas.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/diegosantaana/Proyecto-2"
+                target="_blank"
+                class="projects__link"
+                ><i class="ri-github-line"></i>View</a
+              >
+              <!-- <a
+                href="https://dribbble.com/"
+                target="_blank"
+                class="projects__link"
+                ><i class="ri-dribbble-line"></i>View</a
+              > -->
+            </div>
+          </article>
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./assets/img/project-3.jpg"
+                alt="project image"
+                class="projects__img"
+              />
+              <a
+                href="https://diegosantaana.github.io/workit/"
+                target="_blank"
+                class="projects__button button"
+                ><i class="ri-arrow-right-up-line"></i
+              ></a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Sitio web</h3>
+              <h2 class="projects__title">Análisis de datos</h2>
+              <p class="projects__description">
+                Proyecto responsivo, diseñado para que se adapte correctamente
+                en pantallas de celulares, tablets y computadoras.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/diegosantaana/workit"
+                target="_blank"
+                class="projects__link"
+                ><i class="ri-github-line"></i>View</a
+              >
+              <!-- <a
+                href="https://dribbble.com/"
+                target="_blank"
+                class="projects__link"
+                ><i class="ri-dribbble-line"></i>View</a
+              > -->
+            </div>
+          </article>
+          <!-- <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./assets/img/project-1.jpg"
+                alt="project image"
+                class="projects__img"
+              />
+              <a href="#" class="projects__button button"
+                ><i class="ri-arrow-right-up-line"></i
+              ></a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Barbershop Website</h2>
+              <p class="projects__description">
+                Proyecto que se realiza en base al diseño y estructura de la
+                maqueta, mostrando el diseño a petición del cliente.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/"
+                target="_blank"
+                class="projects__link"
+                ><i class="ri-github-line"></i>View</a
+              >
+              <a
+                href="https://dribbble.com/"
+                target="_blank"
+                class="projects__link"
+                ><i class="ri-dribbble-line"></i>View</a
+              >
+            </div>
+          </article> -->
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact" id="contact">
+        <div class="container container--contact">
+          <div class="contact__data">
+            <h2 class="section__title-2"><span>Contacto.</span></h2>
+            <p class="contact__description-1">
+              Leo todos los correos electrónicos. Enviame el mensaje que quieras
+              y te contestaré.
+            </p>
+            <p class="contact__description-2">
+              Necesito tu <b>Nombre</b> y tu <b>Correo electrónico</b>, pero no
+              recibirá nada mas que su respuesta.
+            </p>
+            <div class="geometric-box"></div>
+          </div>
+          <div class="contact__mail">
+            <h2 class="contact__title">Envíame un mensaje</h2>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact__input"
+                    id="name"
+                    required
+                    placeholder="First Name"
+                  />
+                  <label for="name" class="contact__label">Nombre</label>
+                </div>
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact__input"
+                    id="email"
+                    required
+                    placeholder="Email Address"
+                  />
+                  <label for="email" class="contact__label"
+                    >Correo electrónico</label
+                  >
+                </div>
+              </div>
+              <div class="contact__box">
+                <input
+                  type="text"
+                  name="user_subject"
+                  class="contact__input"
+                  id="subject"
+                  required
+                  placeholder="Subject"
+                />
+                <label for="subject" class="contact__label">Asunto</label>
+              </div>
+              <div class="contact__box contact__area">
+                <textarea
+                  name="user_message"
+                  id="message"
+                  class="contact__input"
+                  required
+                  placeholder="Message"
+                ></textarea>
+                <label for="message" class="contact__label">Mensaje</label>
+              </div>
+              <p class="contact__message" id="contact-message"></p>
+              <button type="submit" class="contact__button button">
+                <i class="ri-send-plane-line"></i>
+                Enviar
+              </button>
+            </form>
+          </div>
+          <div class="contact__social">
+            <img
+              src="./assets/img/curved-arrow.svg"
+              alt="decoration image"
+              class="contact__social-arrow"
+            />
+            <div class="contact__social-data">
+              <div>
+                <p class="contact__social-description-1">
+                  No quieres enviar correos electrónicos?
+                </p>
+                <p class="contact__social-description-2">
+                  Escríbeme en mis redes sociales
+                </p>
+              </div>
+              <div class="contact__social-links">
+                <a
+                  href="https://x.com/DiegoSantaana"
+                  target="_blank"
+                  class="contact__social-link"
+                  ><i class="ri-twitter-x-line"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/diegosantaana_"
+                  target="_blank"
+                  class="contact__social-link"
+                  ><i class="ri-instagram-line"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/diego-santaana-1941amj/"
+                  target="_blank"
+                  class="contact__social-link"
+                  ><i class="ri-linkedin-box-line"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="container container--footer">
+        <ul class="footer__links">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+        </ul>
+        <span class="footer__copyright">
+          &#169; All Rights Reserved By <span> Diego Santa Ana</span></span
+        >
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
