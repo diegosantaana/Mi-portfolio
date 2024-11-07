@@ -45,11 +45,16 @@ const sendEmail = (e) => {
   e.preventDefault();
   // serviceID - templateID - #form - publicKey
   emailjs
-    .sendForm("serviceID", "templateID", "#contact-form", "publicKey")
+    .sendForm(
+      "service_msj8dah",
+      "template_fstktgd",
+      "#contact-form",
+      "mdyly1czE5sXHf36s"
+    )
     .then(
       () => {
         // Show sent message - emoji - win + . - 'verificación'
-        contactMessage.textContent = "Message sent successfully ✅";
+        contactMessage.textContent = "Mensaje enviado exitosamente ✅";
         // Remove message after five seconds
         setTimeout(() => {
           contactMessage.textContent = "";
@@ -59,7 +64,8 @@ const sendEmail = (e) => {
       },
       () => {
         // Show error message - emoji 'x'
-        contactMessage.textContent = "Message not sent (service error) ❌";
+        contactMessage.textContent =
+          "Mensaje no enviado (error del servicio) ❌";
       }
     );
 };
